@@ -1,6 +1,6 @@
 # MPA 612: Economic Decision-Making for Managers
 
-This repository contains the code for generating [econw19.classes.andrewheiss.com](https://econw19.classes.andrewheiss.com/).
+This repository contains the code for generating [empa-econw19.classes.andrewheiss.com](https://empa-econw19.classes.andrewheiss.com/).
 
 ## Theme
 
