@@ -87,27 +87,9 @@ And these shows are excellent, but not always econ/policy-focused (but they're d
     
     On Android, you can use… something, probably.
 
-## R and RStudio
-
-You will do your problem sets and final project with the open source (and free!) programming language [R](https://cran.r-project.org/). You will use [RStudio](https://www.rstudio.com/) as the main program to access R. Think of R as an engine and RStudio as a car dashboard—R handles all the calculations and the actual statistics, while RStudio provides a nice interface for running R code.
-
-R is free, but it can sometimes be a pain to install and configure. To make life easier, you can (and should!) use the free [RStudio.cloud](http://rstudio.cloud/) service, which lets you run a full instance of RStudio in your web browser. This means you won't have to install anything on your computer to get started with R! We will have a shared class workspace in RStudio.cloud that will let you quickly copy templates for labs and problem sets.
-
-RStudio.cloud is convenient, but it can be slow and it is not designed to be able to handle larger datasets, more complicated analysis, or fancier graphics. Over the course of the semester, you'll probably want to get around to installing R, RStudio, and other R packages on your computer and wean yourself off of RStudio.cloud.
-
-You can [find instructions for installing R, RStudio, and all the tidyverse packages here.](/install/)
-
-I also highly recommend subscribing to the [R Weekly newsletter](https://rweekly.org/). This e-mail is sent every Monday and is full of helpful tutorials about how to do stuff with R.
-
 ## Online help and Slack
 
-Economics can be difficult. Computer programming can be difficult. Computers are stupid and little errors in your code can cause hours of headache (even if you've been doing this stuff for years!).
-
-Fortunately there are tons of online resources to help you with this. Two of the most important are [StackOverflow](https://stackoverflow.com/) (a Q&A site with hundreds of thousands of answers to all sorts of programming questions) and [RStudio Community](https://community.rstudio.com/) (a forum specifically designed for people using RStudio and the tidyverse (i.e. you)). 
-
-Searching for help with R on Google can be tricky because the program is, um, a single letter. Try searching for "rstats" instead. If you use Twitter, post R-related questions and content with [#rstats](https://twitter.com/search?q=%23rstats).
-
-Additionally, we have a class chatroom at [Slack](https://ripseecon19.slack.com/) where anyone in the class can ask questions and anyone can answer. Ask questions about the readings or problem sets [in the class Slack workspace](https://ripseecon19.slack.com/). I will monitor Slack regularly, and you should also all do so as well. You'll likely have similar questions as your peers, and you'll likely be able to answer other peoples' questions too.
+Economics can be difficult. We have a class chatroom at [Slack](https://ripseecon19.slack.com/) where anyone in the class can ask questions and anyone can answer. Ask questions about the readings or problem sets [in the class Slack workspace](https://ripseecon19.slack.com/). I will monitor Slack regularly, and you should also all do so as well. You'll likely have similar questions as your peers, and you'll likely be able to answer other peoples' questions too.
 
 
 # Course policies
@@ -136,7 +118,7 @@ On the first day of class, will come up with rules, expectations, and policies r
 ```{r assignments-grades, include=FALSE}
 assignments <- tribble(
   ~Points,  ~Assignment,
-  250     , "Preparation (≈ 8.5 × 29)",
+  250     , "Preparation (≈ 16.5 × 15)",
   8 * 40  , "Problem sets (8 × 40)",
   40      , "Economic briefing",
   100     , "Exam 1",

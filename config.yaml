@@ -27,12 +27,9 @@ menu:
     - name: Reference
       url: /reference/
       weight: 4
-    - name: RStudio.cloud
-      url: "https://rstudio.cloud"
-      weight: 5
     - name: Slack
       url: "https://empa-ripseecon19.slack.com"
-      weight: 6
+      weight: 5
 # Disable taxonomies
 taxonomies:
   tag: ""

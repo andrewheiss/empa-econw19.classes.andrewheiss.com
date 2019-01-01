@@ -3,7 +3,7 @@ title: "Assignments"
 slug: assignments
 ---
 
-# Weekly reflection memo
+# Preparation
 
 <span class="newthought">You will get the most out of this class</span> if you (1) attend class, (2) complete all the readings, and (3) engage^[Take detailed notes, watch the videos and supplementary content, work through the examples given in the textbook, have vivid dreams about them, etc.]  with the readings.^[Also (4) ask for help from me or the TAs!]
 
@@ -12,21 +12,21 @@ To encourage attendance and preparation, I'm borrowing and adapting Dr. Thompson
 At the beginning of every class, I will post a quiz on Learning Suite with the following questions:
 
 1. Are you here in class today?
-    - Yes (*1.5 points*)
+    - Yes (*2.5 points*)
     - No (*0 points*)
 2. How much of today's reading did you finish?
-    - 100% (*4 points*)
-    - 75–99% (*3 points*)
-    - 50–74% (*2 points*)
-    - 11–49% (*1 points*)
+    - 100% (*8 points*)
+    - 75–99% (*6 points*)
+    - 50–74% (*4 points*)
+    - 11–49% (*2 points*)
     - 0–10% (*0 points*)
 3. How well did you read?
-    - I was engaged and read carefully (*3 points*)
-    - I was fairly engaged and read fairly carefully (*2 points*)
-    - I skimmed it (*1 points*)
+    - I was engaged and read carefully (*6 points*)
+    - I was fairly engaged and read fairly carefully (*4 points*)
+    - I skimmed it (*2 points*)
     - I didn't read it at all (*0 points*)
 
-Each day is worth 8.5 points. *It is unlikely that you'll score an 8.5 every day.*^[But it would be amazing if you did!] I will shift the distribution of everyone's final preparation score up at the end of the course.^[That means that if you could solve the collective action problem of getting everyone to not read or attend class, the average would be super low and I'd have to bump your scores way up, but don't do that, obviously.]
+Each day is worth 16.5 points. *It is unlikely that you'll score an 16.5 every day.*^[But it would be amazing if you did!] I will shift the distribution of everyone's final preparation score up at the end of the course.^[That means that if you could solve the collective action problem of getting everyone to not read or attend class, the average would be super low and I'd have to bump your scores way up, but don't do that, obviously.]
 
 
 # Problem sets
@@ -39,7 +39,7 @@ Each day is worth 8.5 points. *It is unlikely that you'll score an 8.5 every day
 - ✔: ^[{-} *100% in gradebook*] Problem set is 70–99% complete and most answers are correct. This is the expected level of performance.
 - ✔−: ^[{-} *50% in gradebook*] Problem set is less than 70% complete and/or most answers are incorrect. This indicates that you need to improve next time. I will hopefully not asisgn these often.
 
-You may (and should!) work together on the problem sets, but *you must turn in your own answers.* You cannot work in groups of more than **three** people, and you must note who participated in the group in your assignment.
+You may (and should!) work together on the problem sets, but *you must turn in your own answers.* You cannot work in groups of more than **five** people, and you must note who participated in the group in your assignment.
 
 
 # Talk like an economist
@@ -58,7 +58,7 @@ You will not need to report what you listen to. I trust that you'll do it. So ju
 
 Near the end of the semester, you will prepare a 5-minute brief where you use economic concepts to explain some pattern or behavior you have observed in your own environment. These do not need to be big issues, but they do need to be real. Being creative is a bonus.^[Don't just explain how supply and demand change for a certain product or whatever—look for a Freakonomics-type question to answer, like [why the McRib follows a strange schedule](https://www.theawl.com/2011/11/a-conspiracy-of-hogs-the-mcrib-as-arbitrage/) (don't do that one, though, obviously).]
 
-You will present your brief to me in my office between April 1–5. I will post a signup sheet on March 25. You have 5 minutes to present, and then you will have up to 5 minutes of follow up questions from me.
+You will present your brief to me during the first couple weeks of April. I will post a signup sheet on March 25. You have 5 minutes to present, and then you will have up to 5 minutes of follow up questions from me.
 
 
 # Exams
@@ -70,10 +70,11 @@ You will take these exams online through Learning Suite. The exams will be timed
 
 # Final project
 
-<span class="newthought">At the end of the course,</span> you will demonstrate your data visualization skills by completing a final project.
+<span class="newthought">At the end of the course,</span> you will demonstrate your knowledge of economics, society, and public policy by completing a final project.
 
 Project details will be posted later once I settle on the best form for it. This much is certain so far:
 
+- It will be a team project
 - You will use economic principles to analyze some sort of real-world, public management-related data
 - It will be so much fun!
 

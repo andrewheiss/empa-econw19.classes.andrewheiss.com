@@ -1,0 +1,127 @@
+lessons:
+  - title: '<span class="fake-header-table">Capitalism, markets, and public policy</span>'
+    header: True
+
+  - title: "Capitalism"
+    date: "January 9"
+    reading: "01-reading"
+
+  - title: "Social interactions and economic outcomes"
+    date: "January 16"
+    reading: "02-reading"
+  
+  - title: '<i class="fas fa-laptop-code"></i> **Problem set 1**'
+    date: "January 18 (F)"
+    assignment: "01-problem-set"
+
+  - title: "Public policy for fairness and efficiency"
+    date: "January 23"
+    reading: "03-reading"
+
+  - title: '<i class="fas fa-laptop-code"></i> **Problem set 2**'
+    date: "January 25 (F)"
+    assignment: "02-problem-set"
+
+  - title: '<span class="fake-header-table">Scarcity, power, and inequality</span>'
+    header: True
+
+  - title: "Work, wellbeing, and scarcity"
+    date: "January 30"
+    reading: "04-reading"
+
+  - title: '<i class="fas fa-laptop-code"></i> **Problem set 3**'
+    date: "February 1 (F)"
+    assignment: "03-problem-set"
+    
+  - title: "Institutions, power, and inequality"
+    date: "February 6"
+    reading: "09-reading"
+
+  - title: '<i class="fas fa-laptop-code"></i> **Problem set 4**'
+    date: "February 8 (F)"
+    assignment: "04-problem-set"
+
+  - title: '<i class="fas fa-star"></i> **Exam 1**'
+    date: "February 9 (Sat)"
+
+  - title: '<span class="fake-header-table">Economic models</span>'
+    header: True
+
+  - title: "The firm"
+    date: "February 13"
+    reading: "06-reading"
+
+  - title: '<i class="fas fa-laptop-code"></i> **Problem set 5**'
+    date: "February 15 (F)"
+    assignment: "05-problem-set"
+
+  - title: "Firms and markets"
+    date: "February 20"
+    reading: "07-reading"
+
+  - title: "Labor markets"
+    date: "February 27"
+    reading: "08-reading"
+
+  - title: '<i class="fas fa-laptop-code"></i> **Problem set 6**'
+    date: "March 1 (F)"
+    assignment: "06-problem-set"
+
+  - title: "Credit markets + Markets and macroeconomics"
+    date: "March 6"
+    reading: "09-reading"
+
+  - title: '<i class="fas fa-star"></i> **Exam 2**'
+    date: "March 9 (Sat)"
+
+  - title: '<span class="fake-header-table">Market failures, governments, and politics</span>'
+    header: True
+
+  - title: "Market failures"
+    date: "March 13"
+    reading: "10-reading"
+
+  - title: '<i class="fas fa-laptop-code"></i> **Problem set 7**'
+    date: "March 15 (F)"
+    assignment: "07-problem-set"
+
+  - title: "Government and institutions"
+    date: "March 20"
+    reading: "11-reading"
+
+  - title: '<i class="fas fa-laptop-code"></i> **Problem set 8**'
+    date: "March 22 (F)"
+    assignment: "08-problem-set"
+
+  - title: "When governments go wrong + Institutional alternatives"
+    date: "March 27"
+    reading: "12-reading"
+
+  - title: '<span class="fake-header-table">Evaluating and implementing policies</span>'
+    header: True
+    
+  - title: "Evaluating policies"
+    date: "April 3"
+    reading: "13-reading"
+
+  - title: '<i class="fas fa-laptop-code"></i> **Problem set 9**'
+    date: "April 5 (F)"
+    assignment: "09-problem-set"
+
+  - title: "Policy formation and politics"
+    date: "April 10"
+    reading: "14-reading"
+
+  - title: '<i class="fas fa-star"></i> **Exam 3**'
+    date: "April 13 (Sat)"
+
+  - title: "Markets, public policy, and public administration"
+    date: "April 17"
+    reading: "15-reading"
+
+  - title: '<span class="fake-header-table">Final</span>'
+    header: True
+
+  - title: "**Final project due** (submit online by 11:59 PM)"
+    date: "April 23 (Tuesday)"
+    assignment: "final-project"
