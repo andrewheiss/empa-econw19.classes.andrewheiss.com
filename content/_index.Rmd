@@ -1,0 +1,12 @@
+---
+title: "Economy, Society, and Public Policy"
+author: "Andrew Heiss"
+---
+
+^[{-} `r blogdown::shortcode("courseinfo")`] <span class="newthought">This site contains</span> the syllabus, schedule, and assignments for MPA 612: Economy, Society, and Public Policy, held during Winter 2019 at Brigham Young University.
+
+By the end of this course, you will (1) be literate in fundamental economic principles, (2) understand the limits of economic theory and free markets, (3) justify government and nonprofit intervention in the economy, and (4) make informed policy recommendations by analyzing and evaluating public sector policies.
+
+<figure>
+[![](/images/espp-flowchart.png)](/images/espp-flowchart.png)
+</figure>

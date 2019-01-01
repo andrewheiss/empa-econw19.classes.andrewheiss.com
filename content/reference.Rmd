@@ -1,0 +1,34 @@
+---
+title: Reference
+slug: reference
+output:
+  blogdown::html_page:
+    template: ../pandoc/toc-title_html.template
+    toc: true
+---
+
+```{r include=FALSE}
+library(emo)
+```
+
+
+# Citations and bibliography
+
+[^bibtex] You can [download a BibTeX file](/bib/references.bib) of all the non-web-based readings in the course.
+
+[^bibtex]: {-} You can open the file in [BibDesk on macOS](http://bibdesk.sourceforge.net/), [JabRef on Windows](http://www.jabref.org/), or [Zotero](https://www.zotero.org/) or [Mendeley](https://www.mendeley.com/) online.
+
+
+# Things you should know for Exam 1
+
+I'll put stuff here as we get closer to the exam.
+
+
+# Things you should know for Exam 2
+
+I'll put stuff here as we get closer to the exam.
+
+
+# Things you should know for Exam 3
+
+I'll put stuff here as we get closer to the exam.
