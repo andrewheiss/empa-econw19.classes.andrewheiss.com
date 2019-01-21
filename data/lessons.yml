@@ -10,6 +10,7 @@ lessons:
   - title: "Social interactions and economic outcomes"
     date: "January 16"
     reading: "02-reading"
+    class: "02-class"
   
   - title: '<i class="fas fa-laptop-code"></i> **Problem set 1**'
     date: "January 19 (S)"

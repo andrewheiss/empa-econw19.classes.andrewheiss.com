@@ -1,0 +1,166 @@
+---
+title: "Social interactions and economic outcomes"
+date: "2019-01-16"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+output:
+  blogdown::html_page:
+    template: ../../pandoc/toc-title_html.template
+    toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+# Slides
+
+[Download the slides from today's lecture](/slides/MPA-612_2019-01-16.pdf).
+
+<figure>
+[![First slide](/images/slides/slides_2019-01-16.png)](/slides/MPA-612_2019-01-16.pdf)
+</figure>
+
+
+# Fun with math and Excel
+
+Here's what we'll do:
+
+- Convert nominal values to real values
+- Rescale the CPI to a different year
+- Calculate inflation rate
+- Calculate average inflation over time
+- Compounding inflation
+
+## Practice with Excel
+
+Download this file:
+
+- [<i class="fas fa-file-excel"></i> `fred_cpi.xlsx`](/data/fred_cpi.xlsx)
+
+And here's a completed version with lots of examples of calculating compound growth rates, shifting CPI indexes to different years, and adjusting for inflation:
+
+- [<i class="fas fa-file-excel"></i> `fred_cpi_cagr_example.xlsx`](/files/fred_cpi_cagr_example.xlsx)
+
+## Nominal to real
+
+Converting nominal values (the numbers written down at the time) to real values (the numbers in today's / another year's dollars):
+
+$$
+\text{Real value} = \frac{\text{Nominal value}}{\text{Price index / 100}}
+$$
+
+## Shifting CPI
+
+Shifting the price index to a different year:
+
+$$
+\text{Price index}_{\text{new year}} = \frac{\text{Price index}_{\text{current year}}}{\text{Price index}_{\text{new year}}} \times 100
+$$
+
+## Inflation rate
+
+The inflation rate is the percent change in CPI between two periods. The formula for percent change is:
+
+$$
+\text{% change} = \frac{\text{New} - \text{Old}}{\text{Old}}
+$$
+
+or
+
+$$
+\text{% change} = \frac{\text{Current} - \text{Previous}}{\text{Previous}}
+$$
+
+*Pay attention* to the time periods in data from FRED.^[Or anywhere, really.] Datasets like [GDP](https://fred.stlouisfed.org/series/GDP) are reported quarterly, while the [CPI](https://fred.stlouisfed.org/series/CPIAUCSL) is monthly. If you need to calculate the annual change (or annual inflation), make sure you either (1) use the same month or quarter as your current and previous times (i.e. January 2016 and January 2017), or (2) add all the percent changes within the year (i.e. add the rates from January 2016, April 2016, July 2017, and October 2017).
+
+## Compounding inflation
+
+The compound average inflation rate is the percent that if the CPI had grown at that rate, compounded, from the start year to the end year, the same CPI would occur in the end year. To calculate this, use the formula for compounding interest, where $A$ is the CPI or price at the end of time period we're concerned about, $P$ the CPI or price at the beginning of the time period we're concerned about, $n$ is the number of times the rate is compounded each year, $t$ is the number of years, and $r$ is the rate that you want to solve for:
+
+$$ 
+A = P (1 + \frac{r}{n})^{nt} 
+$$ 
+
+If we assume interest is compounded once a year, $n$ is 1 and can disappear. This simplifies to:
+
+$$
+\text{CPI}_{\text{new}} = \text{CPI}_{\text{old}}(1 + r)^{t}
+$$
+
+We can rearrange the formula so that $r$ is on the righthand side by dividing, exponentiating, logging, and subtracting: 
+
+$$
+r = exp(\frac{ln(\frac{\text{CPI}_{\text{new}}}{\text{CPI}_{\text{old}}})}{t}) - 1
+$$
+
+Alternatively, instead of assuming annually compounding interest, we can also assume exponential growth (or continually compounding interest), which uses the following formula (again where $A$, $P$, $r$, and $t$ are the prices in the last year, prices in the first year, the rate, and the number of years:
+
+$$
+A = Pe^{rt}
+$$
+
+Or 
+
+$$
+\text{CPI}_{\text{new}} = \text{CPI}_{\text{old}}e^{rt}
+$$
+
+We can again rearrange the formula so that $r$ is on the righthand side:
+
+$$
+r = \frac{ln(\frac{\text{CPI}_{\text{new}}}{\text{CPI}_{\text{old}}})}{t}
+$$
+
+
+# Public goods game results
+
+^[{-} This game is based on @HoltLaury:1997.] Contributions to the public pool decreased fairly rapidly after the first round when you noticed how much free-riding had occurred. Shifting rules later on didn't do much to change the equilibrium of the game. For both sides of the room, changing the value of a kept red card to \$8 in round 5 didn't really change the average contribution initially until both sides started to collapse, and changing the value of a kept red card to \$10 and a public red card to \$2 in round 8 kept the public pool underfunded.
+
+```{r show-results, echo=FALSE, fig.height=5, fig.width=8, message=FALSE, warning=FALSE}
+library(tidyverse)
+
+source(file.path(here::here(), "lib", "graphics.R"))
+
+tribble(
+  ~round, ~left_side, ~right_side,
+  1,      8,          14,
+  2,      12,         11,
+  3,      17,         9,
+  4,      10,         11,
+  5,      9,          13,
+  6,      9,          16,
+  7,      7,          7,
+  8,      4,          5,
+  9,      6,          7,
+) %>%
+  gather(section, total, -round) %>%
+  filter(!is.na(total)) %>%
+  mutate(section = factor(section, labels = c("Left side", "Right side"), 
+                          ordered = TRUE)) %>%
+  ggplot(aes(x = as.factor(round), y = total, color = section, group = section)) + 
+  geom_line(size = 2) + 
+  geom_vline(xintercept = c(5, 8), size = 0.25) +
+  scale_color_manual(values = c(nord_orange, nord_purple)) +
+  scale_y_continuous(labels = scales::dollar) +
+  expand_limits(y = 0) +
+  labs(x = "Round", y = "Public dollars",
+       title = "Dollars contributed to public pool",
+       subtitle = "Vertical lines indicate rule changes",
+       caption = "Left and right represent left and right from my perspective") +
+  guides(color = guide_legend(title = NULL)) +
+  theme_econ(13) + 
+  theme(legend.position = "bottom",
+        panel.grid.minor.y = element_blank(),
+        panel.grid.major.x = element_blank())
+```
+
+
+# Clearest and muddiest things
+
+Go to [this form](https://goo.gl/forms/QfoTI9cFmwofixLD2) and answer these three questions:
+
+1. What was the muddiest thing from class today? What are you still wondering about?
+2. What was the clearest thing from class today? 
+3. What was the most exciting thing you learned?
+
+I'll compile the questions and send out answers after class.
