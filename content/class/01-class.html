@@ -1,0 +1,90 @@
+---
+title: "Capitalism"
+date: "2019-01-09"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+output:
+  blogdown::html_page:
+    template: ../../pandoc/toc-title_html.template
+    toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+<!-- BLOGDOWN-HEAD -->
+<!-- /BLOGDOWN-HEAD -->
+
+<h2>Contents</h2>
+<div id="TOC">
+<ul>
+<li><a href="#slides">Slides</a></li>
+<li><a href="#pit-market-results">Pit market results</a></li>
+<li><a href="#adjusting-for-inflation">Adjusting for inflation</a></li>
+<li><a href="#calculating-the-inflation-rate">Calculating the inflation rate</a></li>
+<li><a href="#economic-indicators">Economic indicators</a></li>
+<li><a href="#adjust-for-inflation-with-excel">Adjust for inflation with Excel</a></li>
+<li><a href="#clearest-and-muddiest-things">Clearest and muddiest things</a></li>
+</ul>
+</div>
+
+<h2 id="slides">Slides</h2>
+<p><a href="/slides/MPA-612_2019-01-09.pdf">Download the slides from today’s lecture</a>.</p>
+<figure>
+<a href="/slides/MPA-612_2019-01-09.pdf"><img src="/images/slides/slides_2019-01-09.png" alt="First slide" /></a>
+</figure>
+<h2 id="pit-market-results">Pit market results</h2>
+<p>Here are the supply and demand curves for paper clips. With no taxation, the equilibrium price should be $6; with tax, it is $7, borne equally by buyers and sellers.</p>
+<p><img src="/class/01-class_files/figure-html/pit-market-supply-demand-1.png" width="672" /></p>
+<p>And here’s how you did!</p>
+<p><img src="/class/01-class_files/figure-html/plot-pit-market-1.png" width="672" /></p>
+<h2 id="adjusting-for-inflation">Adjusting for inflation</h2>
+<p>Converting nominal values (the numbers written down at the time) to real values (the numbers in today’s / another year’s dollars):</p>
+<p><span class="math display">\[
+\text{Real value} = \frac{\text{Nominal value}}{\text{Price index / 100}}
+\]</span></p>
+<p>Shifting the price index to a different year:</p>
+<p><span class="math display">\[
+\text{Price index}_{\text{new year}} = \frac{\text{Price index}_{\text{current year}}}{\text{Price index}_{\text{new year}}} \times 100
+\]</span></p>
+<p>Or, for the quickest and easiest method, use the BLS’s <a href="https://www.bls.gov/data/inflation_calculator.htm">CPI inflation calculator</a>.</p>
+<h2 id="calculating-the-inflation-rate">Calculating the inflation rate</h2>
+<p>The inflation rate is the percent change in CPI between two periods. The formula for percent change is:</p>
+<p><span class="math display">\[
+\text{% change} = \frac{\text{New} - \text{Old}}{\text{Old}}
+\]</span></p>
+<p>or</p>
+<p><span class="math display">\[
+\text{% change} = \frac{\text{Current} - \text{Previous}}{\text{Previous}}
+\]</span></p>
+<p>The CPI in January 2010 was 217.488, and it was 249.245 in January 2018. The total inflation over the past 8 years is <span class="math inline">\(\frac{249.245 - 217.488}{217.488}\)</span>, or 14.6%.</p>
+<h2 id="economic-indicators">Economic indicators</h2>
+<ul>
+<li><a href="https://fred.stlouisfed.org/series/GDP"><i class="fas fa-chart-line"></i> GDP (nominal)</a></li>
+<li><a href="https://fred.stlouisfed.org/series/GDPDEF"><i class="fas fa-chart-line"></i> GDP deflator</a></li>
+<li><a href="https://fred.stlouisfed.org/series/CPIAUCSL"><i class="fas fa-chart-line"></i> CPI</a></li>
+<li><a href="https://fred.stlouisfed.org/series/PINCOME"><i class="fas fa-chart-line"></i> Personal income (nominal)</a></li>
+<li><a href="https://fred.stlouisfed.org/series/POPTOTUSA647NWDB"><i class="fas fa-chart-line"></i> Population</a></li>
+<li><a href="https://fred.stlouisfed.org/series/A792RC0A052NBEA"><i class="fas fa-chart-line"></i> Personal income per capita (nominal)</a></li>
+<li><a href="https://fred.stlouisfed.org/series/HLTHSCPCHCSA"><i class="fas fa-chart-line"></i> Health expenditures per capita (nominal)</a></li>
+</ul>
+<h2 id="adjust-for-inflation-with-excel">Adjust for inflation with Excel</h2>
+<p>We made this spreadsheet in class to show how to adjust for inflation, change the base year of the CPI, and calculated inflation rates:</p>
+<ul>
+<li><a href="/files/fred_cpi_example.xlsx"><i class="fas fa-file-excel"></i> <code>fred_cpi_example.xlsx</code></a></li>
+</ul>
+<p>We used these raw Excel files to do this:<span><label for="sn-1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-1" class="margin-toggle"/><span class="sidenote">For the morbidly curious, you can see the R code I used to download and compile this data from <a href="https://fred.stlouisfed.org/">FRED</a> at <a href="https://econw19.classes.andrewheiss.com/class/02-class/#economic-indicators">the daytime MPA class website</a>.<br />
+<br />
+</span></span></p>
+<ul>
+<li><a href="/data/fred_cpi.xlsx"><i class="fas fa-file-excel"></i> <code>fred_cpi.xlsx</code></a></li>
+<li><a href="/data/fred_gdp.xlsx"><i class="fas fa-file-excel"></i> <code>fred_gdp.xlsx</code></a></li>
+</ul>
+<h2 id="clearest-and-muddiest-things">Clearest and muddiest things</h2>
+<p>Go to <a href="https://goo.gl/forms/QfoTI9cFmwofixLD2">this form</a> and answer these three questions:</p>
+<ol style="list-style-type: decimal">
+<li>What was the muddiest thing from class today? What are you still wondering about?</li>
+<li>What was the clearest thing from class today?</li>
+<li>What was the most exciting thing you learned?</li>
+</ol>
+<p>I’ll compile the questions and send out answers after class.</p>
