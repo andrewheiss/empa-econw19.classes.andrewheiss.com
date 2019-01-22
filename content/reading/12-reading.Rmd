@@ -8,6 +8,10 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 # Required
 
+**Important**: This looks like a ton of reading, and there is a lot, but note that many of these things are shorter videos or tweets. Listen to the podcasts passively while doing other stuff, like driving or doing the dishes.
+
+The materials in the institutional alternatives section are foundational to public administration economics and the whole reason the nonprofit sector is folded into the public sector in this program. They're long and old and stilted and full of math, so **please** don't spend an inordinate amount of time on them. Remember your grad school reading skills—read the introduction and conclusion, look around in the middle for things that look interesting, and make sure you understand the gist of what's going on.
+
 ## When governments go wrong
 
 - <i class="fab fa-twitter-square"></i> [Noah Smith on why we should worry about race, culture, and politics when thinking about economics](https://twitter.com/noahpinion/status/946446862898282496)
@@ -26,11 +30,8 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 - <i class="far fa-file-pdf"></i> Chapter 5 in Douglass C. North, *Institutions, Institutional Change, and Economic Performance* [@North:1990]
 - <i class="far fa-file-pdf"></i> Olaf Corry, "Defining and Theorizing the Third Sector" [@Corry:2010]
-- <i class="far fa-file-pdf"></i> Michael W. Foley and Bob Edwards, "The Paradox of Civil Society" [@FoleyEdwards:1996]
-- <i class="far fa-file-pdf"></i> David C. Hammack, "Nonprofit Organizations in American History" [@Hammack:2002]
-    - This one is long. You don't need to read it in as much detail.
 - <i class="far fa-file-pdf"></i> Chapters 1 and 2 in Elinor Ostrom, *Governing the Commons: The Evolution of Institutions for Collective Action* [@Ostrom:1990]
-    - This one is also long and game theoretical. You can skim through lots of it (especially the mathy sections). But it's also pretty foundational to public administration, so it *is* important.
+    - This one is super long and game theoretical. You can skim through lots of it (especially the mathy sections). But it's also pretty foundational to public administration, so it *is* important. Make sure you get the gist of what's happening, but don't strain yourself with all the tiny details.
 
 
 # Not required, but highly recommended

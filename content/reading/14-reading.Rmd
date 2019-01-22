@@ -15,7 +15,7 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 - <i class="far fa-file-pdf"></i> Chapter 1 in Mancur Olson, *The Logic of Collective Action* [@Olson:1971]
     - Like Ostrom's stuff on CPRs, this one is a little long (though deceptively so—there are a ton of really long footnotes) and game theoretical, but also exceptionally important. You can skim through lots of it (especially the mathy sections). Olson conveniently has nontechnical summaries after the more technical sections, so focus on those more than the ancient game theory math.
     
-        Really, you shouldn't spend an inordinate amount of time with this chapter.
+        Really, you shouldn't spend an inordinate amount of time with this chapter. (Notice how I keep saying this every week!)
 - <i class="fas fa-podcast"></i> Planet Money, ["A Former Lobbyist Tells All,"](https://www.npr.org/sections/money/2012/01/27/145923803/the-friday-podcast-a-former-lobbyist-tells-all) Episode 341, January 27, 2012
 - <i class="fab fa-youtube"></i> [LSE Research: Washington's Revolving Door](https://www.youtube.com/watch?v=2XLuaebpdAA)
 - <i class="fas fa-external-link-square-alt"></i> John Sides, ["A new experiment shows how money buys access to Congress,"](https://www.washingtonpost.com/news/monkey-cage/wp/2014/03/11/a-new-experiment-shows-how-money-buys-access-to-congress/?utm_term=.52fe30402280) The Washington Post's Monkey Cage, March 11, 2014

@@ -8,7 +8,7 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 # Required
 
-***Important***: The PDF of the chapter is posted on Learning Suite.
+***Important***: The PDFs are posted on Learning Suite.
 
 - <i class="far fa-file-pdf"></i> Chapter 8 in Jonathan Gruber, *Public Finance and Public Policy* [@Gruber:2005]
 - <i class="fab fa-youtube"></i> Stephen Colbert, ["The Wørd—Priceless,"](http://www.cc.com/video-clips/e8zxmm/the-colbert-report-the-word---priceless)^[He's kinda wrong here, btw.] July 14, 2008
