@@ -19,6 +19,7 @@ lessons:
   - title: "Public policy for fairness and efficiency"
     date: "January 23"
     reading: "03-reading"
+    class: "03-class"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem set 2**'
     date: "January 25 (F)"
