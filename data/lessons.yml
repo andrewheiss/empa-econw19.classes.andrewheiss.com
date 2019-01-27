@@ -22,7 +22,7 @@ lessons:
     class: "03-class"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem set 2**'
-    date: "January 25 (F)"
+    date: "January 26 (S)"
     assignment: "02-problem-set"
 
   - title: '<span class="fake-header-table">Scarcity, power, and inequality</span>'
@@ -33,7 +33,7 @@ lessons:
     reading: "04-reading"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem set 3**'
-    date: "February 1 (F)"
+    date: "February 2 (S)"
     assignment: "03-problem-set"
     
   - title: "Institutions, power, and inequality"
@@ -41,7 +41,7 @@ lessons:
     reading: "05-reading"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem set 4**'
-    date: "February 8 (F)"
+    date: "February 9 (S)"
     assignment: "04-problem-set"
 
   - title: '<i class="fas fa-star"></i> **Exam 1**'
@@ -55,7 +55,7 @@ lessons:
     reading: "06-reading"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem set 5**'
-    date: "February 15 (F)"
+    date: "February 16 (S)"
     assignment: "05-problem-set"
 
   - title: "Firms and markets"
@@ -67,7 +67,7 @@ lessons:
     reading: "08-reading"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem set 6**'
-    date: "March 1 (F)"
+    date: "March 2 (S)"
     assignment: "06-problem-set"
 
   - title: "Credit markets + Markets and macroeconomics"
@@ -85,7 +85,7 @@ lessons:
     reading: "10-reading"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem set 7**'
-    date: "March 15 (F)"
+    date: "March 16 (S)"
     assignment: "07-problem-set"
 
   - title: "Government and institutions"
@@ -93,7 +93,7 @@ lessons:
     reading: "11-reading"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem set 8**'
-    date: "March 22 (F)"
+    date: "March 23 (S)"
     assignment: "08-problem-set"
 
   - title: "When governments go wrong + Institutional alternatives"
@@ -108,7 +108,7 @@ lessons:
     reading: "13-reading"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem set 9**'
-    date: "April 5 (F)"
+    date: "April 6 (S)"
     assignment: "09-problem-set"
 
   - title: "Policy formation and politics"
