@@ -31,92 +31,93 @@ lessons:
   - title: "Work, wellbeing, and scarcity"
     date: "January 30"
     reading: "04-reading"
+    class: "04-class"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem set 3**'
     date: "February 2 (S)"
     assignment: "03-problem-set"
     
+  - title: "Work, wellbeing, and scarcity II + nudges"
+    date: "February 11 (M)"
+    reading: "04a-reading"
+
   - title: "Institutions, power, and inequality"
-    date: "February 6"
+    date: "February 13"
     reading: "05-reading"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem set 4**'
-    date: "February 9 (S)"
+    date: "February 16 (S)"
     assignment: "04-problem-set"
-
-  - title: '<i class="fas fa-star"></i> **Exam 1**'
-    date: "February 9 (Sat)"
 
   - title: '<span class="fake-header-table">Economic models</span>'
     header: True
 
   - title: "The firm"
-    date: "February 13"
+    date: "February 20"
     reading: "06-reading"
 
-  - title: '<i class="fas fa-laptop-code"></i> **Problem set 5**'
-    date: "February 16 (S)"
-    assignment: "05-problem-set"
+  - title: '<i class="fas fa-star"></i> **Exam 1**'
+    date: "February 23 (S)"
 
-  - title: "Firms and markets"
-    date: "February 20"
+  - title:  "Firms and markets"
+    date: "February 27"
     reading: "07-reading"
 
-  - title: "Labor markets"
-    date: "February 27"
-    reading: "08-reading"
+  - title: "Firms and markets (II) + credit markets"
+    date: "March 6"
+    reading: "09a-reading"
+
+  - title: '<i class="fas fa-laptop-code"></i> **Problem set 5**'
+    date: "March 2 (S)"
+    assignment: "05-problem-set"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem set 6**'
-    date: "March 2 (S)"
+    date: "March 9 (S)"
     assignment: "06-problem-set"
 
-  - title: "Credit markets + Markets and macroeconomics"
-    date: "March 6"
+  - title: "Markets and macroeconomics"
+    date: "March 13"
     reading: "09-reading"
 
   - title: '<i class="fas fa-star"></i> **Exam 2**'
-    date: "March 9 (Sat)"
+    date: "March 16 (S)"
 
   - title: '<span class="fake-header-table">Market failures, governments, and politics</span>'
     header: True
 
   - title: "Market failures"
-    date: "March 13"
+    date: "March 20"
     reading: "10-reading"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem set 7**'
-    date: "March 16 (S)"
+    date: "March 23 (S)"
     assignment: "07-problem-set"
 
   - title: "Government and institutions"
-    date: "March 20"
+    date: "March 27"
     reading: "11-reading"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem set 8**'
-    date: "March 23 (S)"
+    date: "March 30 (S)"
     assignment: "08-problem-set"
 
   - title: "When governments go wrong + Institutional alternatives"
-    date: "March 27"
+    date: "April 3"
     reading: "12-reading"
 
   - title: '<span class="fake-header-table">Evaluating and implementing policies</span>'
     header: True
     
   - title: "Evaluating policies"
-    date: "April 3"
+    date: "April 10"
     reading: "13-reading"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem set 9**'
-    date: "April 6 (S)"
+    date: "April 12 (F)"
     assignment: "09-problem-set"
 
-  - title: "Policy formation and politics"
-    date: "April 10"
-    reading: "14-reading"
-
   - title: '<i class="fas fa-star"></i> **Exam 3**'
-    date: "April 13 (Sat)"
+    date: "April 13 (S)"
 
   - title: "Markets, public policy, and public administration"
     date: "April 17"
@@ -126,5 +127,5 @@ lessons:
     header: True
 
   - title: "**Final project due** (submit online by 11:59 PM)"
-    date: "April 23 (Tuesday)"
+    date: "April 23 (T)"
     assignment: "final-project"
