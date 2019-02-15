@@ -45,6 +45,7 @@ lessons:
   - title: "Institutions, power, and inequality"
     date: "February 13"
     reading: "05-reading"
+    class: "05-class"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem set 4**'
     date: "February 16 (S)"

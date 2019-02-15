@@ -1,0 +1,113 @@
+---
+title: "Institutions, power, and inequality"
+date: "2019-02-13"
+citeproc: false
+bibliography: ../../static/bib/references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+output:
+  blogdown::html_page:
+    template: ../../pandoc/toc-title_html.template
+    toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+# Slides
+
+[Download the slides from today's lecture](/slides/MPA-612_2019-02-13.pdf).
+
+<figure>
+[![First slide](/images/slides/slides_2019-02-13.png)](/slides/MPA-612_2019-02-13.pdf)
+</figure>
+
+
+# International Trade Game
+
+This game was originally developed by the international NGO Action Aid and [adapted by Dr. John Sloman from the University of the West of England](https://www.economicsnetwork.ac.uk/showcase/sloman_game).
+
+## Results
+
+```{r calc-results, warning=FALSE, message=FALSE, echo=FALSE}
+library(tidyverse)
+library(pander)
+library(ggstance)
+library(here)
+
+source(here("lib", "graphics.R"))
+
+results <- tribble(
+  ~team,     ~total,
+  "A1",      7700,
+  "A2 & B2", 52500,
+  "B1",      11800,
+  "C1",      12150,
+  "C2",      19350,
+) %>%
+  mutate(team = fct_inorder(team, ordered = TRUE) %>% fct_rev())
+
+results_summary <- results %>%
+  rename(`Total earnings` = total) %>%
+  mutate(`% of world earnings` = `Total earnings` / sum(`Total earnings`)) %>%
+  ungroup() %>% 
+  arrange(desc(`% of world earnings`)) %>%
+  mutate(total = `Total earnings`)
+```
+
+Two countries merged and outperformed all other countries (even if they split their earnings 50/50 at the end, both countries still would have won). 
+
+```{r plot-results, echo=FALSE, fig.height=3.5}
+ggplot(results, aes(x = total, y = team)) +
+  geom_pointrangeh(aes(xmin = 0, xmax = total), size = 0.75, color = nord_orange) +
+  scale_x_continuous(labels = scales::dollar) +
+  labs(x = "Final earnings", y = NULL) +
+  theme_econ(13) +
+  theme(panel.grid.major.y = element_blank())
+```
+
+```{r table-results, echo=FALSE, results="asis"}
+results_summary %>%
+  select(Country = team, everything(), -total) %>%
+  mutate(`Total earnings` = scales::dollar(`Total earnings`),
+         `% of world earnings` = scales::percent(`% of world earnings`)) %>% 
+  pandoc.table()
+```
+
+\
+
+This distribution of wealth created a moderately unequal society, with a Gini coefficient of `r results_summary %>% pull(total) %>% ineq::Gini() %>% round(2)`.
+
+```{r plot-gini, echo=FALSE, fig.height=4}
+get_lorenz <- function(x) {
+  lorenz_raw <- ineq::Lc(x)
+  tibble(prop_population = lorenz_raw$p,
+         prop_income = lorenz_raw$L)
+}
+
+results_gini <- get_lorenz(results_summary$`Total earnings`)
+
+ggplot(data = results_gini) +
+  geom_ribbon(aes(x = prop_population,
+                  ymin = prop_income,
+                  ymax = prop_population), 
+              fill = nord_orange, alpha = 0.3) +
+  geom_line(aes(x = prop_population, y = prop_income), 
+            color = nord_orange, size = 2) +
+  geom_abline(slope = 1, intercept = 0, size = 0.5, color = "grey50") +
+  labs(x = "Cumulative % of population", y = "Cumulative % of income") +
+  scale_x_continuous(expand = c(0, 0), labels = scales::percent, breaks = seq(0, 1, 0.2)) +
+  scale_y_continuous(expand = c(0, 0), labels = scales::percent, breaks = seq(0, 1, 0.2)) +
+  theme_econ(13) +
+  theme(panel.grid = element_blank(),
+        axis.line = element_line(color = "black", size = 0.25))
+```
+
+
+# Clearest and muddiest things
+
+Go to [this form](https://goo.gl/forms/QfoTI9cFmwofixLD2) and answer these three questions:
+
+1. What was the muddiest thing from class today? What are you still wondering about?
+2. What was the clearest thing from class today? 
+3. What was the most exciting thing you learned?
+
+I'll compile the questions and send out answers after class.
