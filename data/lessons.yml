@@ -57,6 +57,7 @@ lessons:
   - title: "The firm"
     date: "February 20"
     reading: "06-reading"
+    class: "06-class"
 
   - title: '<i class="fas fa-star"></i> **Exam 1**'
     date: "February 23 (S)"
@@ -65,13 +66,13 @@ lessons:
     date: "February 27"
     reading: "07-reading"
 
-  - title: "Firms and markets (II) + credit markets"
-    date: "March 6"
-    reading: "09a-reading"
-
   - title: '<i class="fas fa-laptop-code"></i> **Problem set 5**'
     date: "March 2 (S)"
     assignment: "05-problem-set"
+
+  - title: "Firms and markets (II) + credit markets"
+    date: "March 6"
+    reading: "09a-reading"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem set 6**'
     date: "March 9 (S)"
