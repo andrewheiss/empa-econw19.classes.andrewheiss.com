@@ -60,7 +60,7 @@ lessons:
     class: "06-class"
 
   - title: '<i class="fas fa-star"></i> **Exam 1**'
-    date: "February 23 (S)"
+    date: "February 16–23"
 
   - title:  "Firms and markets"
     date: "February 27"
@@ -84,7 +84,7 @@ lessons:
     reading: "09-reading"
 
   - title: '<i class="fas fa-star"></i> **Exam 2**'
-    date: "March 16 (S)"
+    date: "March 15–23"
 
   - title: '<span class="fake-header-table">Market failures, governments, and politics</span>'
     header: True
