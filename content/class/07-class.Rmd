@@ -14,7 +14,11 @@ editor_options:
 
 # Slides
 
-The slides from today will go here.
+[Download the slides from today's lecture](/slides/MPA-612_2019-02-27.pdf).
+
+<figure>
+[![First slide](/images/slides/slides_2019-02-27.png)](/slides/MPA-612_2019-02-27.pdf)
+</figure>
 
 
 # XYZ Frames
