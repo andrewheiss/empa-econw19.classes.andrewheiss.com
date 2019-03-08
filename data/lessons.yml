@@ -74,6 +74,7 @@ lessons:
   - title: "Firms and markets (II) + credit markets"
     date: "March 6"
     reading: "09a-reading"
+    class: "09a-class"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem set 6**'
     date: "March 9 (S)"
