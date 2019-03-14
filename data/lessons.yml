@@ -83,6 +83,7 @@ lessons:
   - title: "Markets and macroeconomics"
     date: "March 13"
     reading: "09-reading"
+    class: "09-class"
 
   - title: '<i class="fas fa-star"></i> **Exam 2**'
     date: "March 15–23"
