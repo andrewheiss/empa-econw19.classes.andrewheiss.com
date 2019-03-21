@@ -94,6 +94,7 @@ lessons:
   - title: "Market failures"
     date: "March 20"
     reading: "10-reading"
+    class: "10-class"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem set 7**'
     date: "March 25 (M)"

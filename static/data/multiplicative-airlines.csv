@@ -1,0 +1,79 @@
+Round,Pair,Role,Person,Costs,Earnings,Profits
+1,1,A,Jeremy,0,10,10
+1,1,B,Spencer,0,3,3
+2,1,A,Jeremy,0,12,12
+2,1,B,Spencer,3,15,12
+3,1,A,Jeremy,0,10,10
+3,1,B,Spencer,4,15,11
+1,2,A,Jasen A,0,6,6
+1,2,B,Uati,0,4,4
+2,2,A,Jasen A,0,8,8
+2,2,B,Uati,0,8,8
+3,2,A,Jasen A,19.5,39,19.5
+3,2,B,Uati,19.5,39,19.5
+1,3,A,Katherine,0,2,2
+1,3,B,Janna,0,8,8
+2,3,A,Katherine,7,14,7
+2,3,B,Janna,7,14,7
+3,3,A,Katherine,9.5,19,9.5
+3,3,B,Janna,9.5,19,9.5
+1,4,A,Scott,0,8,8
+1,4,B,John,0,8,8
+2,4,A,Scott,0,7.5,7.5
+2,4,B,John,2.5,10,7.5
+3,4,A,Scott,9,18,9
+3,4,B,John,9,18,9
+1,5,A,Abby,0,7,7
+1,5,B,Teresa,0,8,8
+2,5,A,Abby,0,5,5
+2,5,B,Teresa,0,10,10
+3,5,A,Abby,1,15,14
+3,5,B,Teresa,0,7,7
+1,6,A,Chris,0,5,5
+1,6,B,Miguel,0,8,8
+2,6,A,Chris,0,4,4
+2,6,B,Miguel,3,10,7
+3,6,A,Chris,12.5,25,12.5
+3,6,B,Miguel,12.5,25,12.5
+1,7,A,Cheri,0,5,5
+1,7,B,Scott,0,10,10
+2,7,A,Cheri,0,10,10
+2,7,B,Scott,1,10,9
+3,7,A,Cheri,12.5,25,12.5
+3,7,B,Scott,12.5,21,8.5
+1,8,A,Norm,0,5,5
+1,8,B,Jason B,0,8,8
+2,8,A,Norm,0,8,8
+2,8,B,Jason B,3,10,7
+3,8,A,Norm,5,15,10
+3,8,B,Jason B,0,9,9
+1,9,A,Blake,0,3,3
+1,9,B,Mallory,0,6,6
+2,9,A,Blake,0,7.5,7.5
+2,9,B,Mallory,2.5,10,7.5
+3,9,A,Blake,5,15,10
+3,9,B,Mallory,0,10,10
+1,10,A,Marissa S,0,10,10
+1,10,B,Lisa,0,2,2
+2,10,A,Marissa S,0,14,14
+2,10,B,Lisa,0,12,12
+3,10,A,Marissa S,0,13,13
+3,10,B,Lisa,0,13,13
+1,11,A,Marissa G,0,3,3
+1,11,B,Michele,0,10,10
+2,11,A,Marissa G,0,7,7
+2,11,B,Michele,3,10,7
+3,11,A,Marissa G,11.5,23,11.5
+3,11,B,Michele,11.5,23,11.5
+1,12,A,Rachel,0,4,4
+1,12,B,Bridger,0,8,8
+2,12,A,Rachel,0,9,9
+2,12,B,Bridger,1,10,9
+3,12,A,Rachel,0,18,18
+3,12,B,Bridger,0,8,8
+1,13,A,Tyler,0,4,4
+1,13,B,Suzanne,0,8,8
+2,13,A,Tyler,12.5,25,12.5
+2,13,B,Suzanne,12.5,25,12.5
+3,13,A,Tyler,19.5,39,19.5
+3,13,B,Suzanne,19.5,39,19.5
