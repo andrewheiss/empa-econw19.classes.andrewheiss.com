@@ -103,9 +103,10 @@ lessons:
   - title: "Government and institutions"
     date: "March 27"
     reading: "11-reading"
+    class: "11-class"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem set 8**'
-    date: "March 30 (S)"
+    date: "April 1 (M)"
     assignment: "08-problem-set"
 
   - title: "When governments go wrong + Institutional alternatives"
