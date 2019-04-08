@@ -10,14 +10,7 @@ csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 
 ***Important***: PDFs of the readings are on Learning Suite.
 
+- <i class="fas fa-external-link-square-alt"></i> Keira Shae, ["Dear American Taxpayers, Thank You for Saving My Life"](https://bycommonconsent.com/2018/07/04/dear-american-taxpayers-thank-you-for-saving-my-life/)
 - <i class="far fa-file-pdf"></i> Charles E. Lindblom, "The Science of 'Muddling Through'" [@Lindblom:1959]
 - <i class="fas fa-external-link-square-alt"></i> David Bornstein, ["The Dawn of the Evidence-Based Budget,"](https://opinionator.blogs.nytimes.com/2012/05/30/worthy-of-government-funding-prove-it/?pagewanted=all) The New York Times, May 30, 2012
 - <i class="far fa-file-pdf"></i> Esther Duflo, "Policies, Politics: Can Evidence Play a Role in the Fight Against Poverty" [@Duflo:2011]
-- <i class="far fa-file-pdf"></i> Introduction, chapter 1, and chapter 5 in Richard H. Thaler and Cass R. Sunstein, *Nudge: Improving Decisions About Health, Wealth, and Happiness* [@ThalerSunstein:2008]
-- <i class="fas fa-podcast"></i> At least **two** of these episodes:
-    - Freakonomics Radio, ["The Men Who Started a Thinking Revolution,"](http://freakonomics.com/podcast/men-started-thinking-revolution/) January 4, 2017
-    - Freakonomics Radio, ["Should We Really Behave like Economists Say We Do?,"](http://freakonomics.com/podcast/should-we-really-behave-like-economists-say-we-do-a-new-freakonomics-radio-podcast/) June 4, 2015
-    - Freakonomics Radio, ["Big Returns from Thinking Small,"](http://freakonomics.com/podcast/big-returns-thinking-small/) March 29, 2017
-    - Freakonomics Radio, ["The White House Gets Into the Nudge Business,"](http://freakonomics.com/podcast/white-house-gets-nudge-business/) November 2, 2016
-    - Planet Money, ["Nudge, Nudge, Nobel,"](https://www.npr.org/sections/money/2017/11/01/561421807/episode-803-nudge-nudge-nobel) episode 803
-    - Hidden Brain, ["Predictably Unpredictable: Why We Don't Act Like We Should,"](https://www.npr.org/2017/10/23/559581601/predictably-unpredictable-why-we-dont-act-like-we-should) October 23, 2017
