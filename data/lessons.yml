@@ -112,6 +112,7 @@ lessons:
   - title: "When governments go wrong + Institutional alternatives"
     date: "April 3"
     reading: "12-reading"
+    class: "12-class"
 
   - title: '<span class="fake-header-table">Evaluating and implementing policies</span>'
     header: True
