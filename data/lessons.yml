@@ -120,6 +120,7 @@ lessons:
   - title: "Evaluating policies"
     date: "April 10"
     reading: "13-reading"
+    class: "13-class"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem set 9**'
     date: "April 12 (F)"
