@@ -132,6 +132,7 @@ lessons:
   - title: "Markets, public policy, and public administration"
     date: "April 17"
     reading: "15-reading"
+    class: "15-class"
 
   - title: '<span class="fake-header-table">Final</span>'
     header: True
